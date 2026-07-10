@@ -7,19 +7,84 @@ The goal is to support **data-driven decision-making** for improving road safety
 
 ---
 
-## 🎯 Objectives
-- Identify high-risk LGAs and suburbs  
-- Analyze crash severity and contributing factors  
-- Understand patterns by time, weather, and demographics  
-- Provide actionable safety recommendations  
+## 📊 Problem Definition
+South Australia faces a significant road safety challenge, with **63,239 crashes recorded between 2020–2024**, resulting in **23,892 casualties**.  
+
+Approximately **6% of crashes resulted in fatal or serious injuries**, indicating that many incidents are preventable and influenced by systemic factors such as:
+- Speed limits  
+- Road conditions  
+- Weather  
+- Road user behavior  
 
 ---
 
-## 📊 Business Impact
-This dashboard helps:
-- Government agencies identify high-risk areas  
-- Improve road safety strategies  
-- Reduce accident rates through data insights
+## 🎯 Target Stakeholders
+This dashboard supports decision-making for:
+- Government agencies (SA Government, councils)
+- South Australia Police (SAPOL)
+- Traffic Management & Infrastructure departments
+- Road safety campaigns (e.g., Think! Road Safety)
+- Insurance companies
+- Healthcare providers
+
+---
+
+## 🔍 Key Insights
+
+### 🚨 Speed as the Primary Risk Factor
+Most crashes occur on roads with speed limits between **50–80 km/h**, indicating that moderate-speed zones still present significant danger.
+
+### 🎉 Increased Risk During Public Holidays
+Crash severity increases during holiday periods, with **82–86 serious cases per 100 crashes**, likely due to increased travel and traffic volume.
+
+### 👥 Vulnerable Road Users
+- Drivers account for most crashes  
+- However, **pedestrians and riders suffer more severe outcomes**
+
+### 📊 Demographics Impact
+- High-risk groups: **Young adults (0–29)** and **middle-aged (30–59)**  
+- Gender distribution is relatively balanced:
+  - Male: 53%  
+  - Female: 47%  
+
+### 📍 Crash Hotspots
+- **Playford** identified as a high-risk area  
+- Accounts for **10.8% of serious crashes**
+
+### ⏱️ Temporal Patterns
+- Peak crash months: **March, May, August**  
+- Most crashes occur:
+  - During daytime  
+  - In dry weather conditions  
+- Likely influenced by traffic patterns and seasonal behavior  
+
+---
+
+## 💡 Recommendations
+
+### 1. 🚧 Reduce Speed in High-Risk Areas
+- Lower speed limits in critical zones (e.g., Playford)  
+- Introduce traffic calming measures:
+  - Speed bumps  
+  - Road narrowing  
+👉 Potential to reduce serious crashes by up to 30%
+
+---
+
+### 2. 🚓 Enhance Holiday Enforcement
+- Increase police visibility during holidays  
+- Deploy mobile speed cameras  
+- Run targeted safety campaigns  
+
+---
+
+### 3. 📊 Data-Driven Budget Allocation
+- Prioritize funding for:
+  - School zones  
+  - High-density traffic routes  
+- Shift resources away from low-risk areas  
+
+---
 
 ---
 
@@ -78,20 +143,6 @@ sa-road-crash-dashboard/
 │── assets/
 │ └── dashboard.png
 │── README.md
-
----
-
-##  How to Use
-1. Download the `.twbx` file  
-2. Open using Tableau Desktop  
-3. Explore dashboards using filters and interactive visuals  
-
----
-
-##  Recommendations
-- Improve road safety in high-risk LGAs  
-- Increase monitoring during high-risk hours  
-- Target awareness campaigns for vulnerable groups  
 
 ---
 
